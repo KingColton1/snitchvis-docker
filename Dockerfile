@@ -13,7 +13,8 @@ RUN apt update && apt install -y \
     python3-pyqt6 \
     git \
     libxcb-xinerama0 \
-    libxcb-cursor0
+    libxcb-cursor0 \
+    ffmpeg
 
 RUN git clone --depth=1 https://github.com/tybug/snitchvisbot.git /app
 
