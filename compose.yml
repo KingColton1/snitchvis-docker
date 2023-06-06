@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  snitchvis:
+    build: .
+    environment:
+      START_DOCKER: false
+      DISPLAY: ${DISPLAY}
+    #   SNITCHVIS_TOKEN: ""
+    #   SNITCHVIS_AUTHOR_ID: ""
+    #   SNITCHVIS_TESTING_GUILD: ""
+    # command: bash
+    # stdin_open: true
+    # tty: true
+    # init: true
+    volumes:
+      # make sure these files exist before running docker-compose
+      - ./config.py:/app/config.py:ro
+      - ./snitchvis.db:/app/snitchvis.db
+      # xserver
+      # - /tmp/.X11-unix:/tmp/.X11-unix
