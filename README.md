@@ -8,7 +8,6 @@ Prerequisites:
 
 - Docker
 - Docker Compose
-- A running xserver (this is needed because snitchvisbot uses qt6 for some reason)
 
 Run:
 

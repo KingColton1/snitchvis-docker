@@ -5,11 +5,6 @@ services:
     build: .
     environment:
       START_DOCKER: false
-      DISPLAY: ${DISPLAY}
-    #   SNITCHVIS_TOKEN: ""
-    #   SNITCHVIS_AUTHOR_ID: ""
-    #   SNITCHVIS_TESTING_GUILD: ""
-    # command: bash
     # stdin_open: true
     # tty: true
     # init: true
