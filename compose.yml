@@ -2,7 +2,8 @@ version: "3.8"
 
 services:
   snitchvis:
-    build: .
+    # build: .
+    image: ghcr.io/huskydog9988/snitchvis-docker:latest
     environment:
       START_DOCKER: false
     # stdin_open: true
