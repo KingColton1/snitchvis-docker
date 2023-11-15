@@ -1,11 +1,8 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3-bullseye
+FROM python:3.11-bookworm
 
 ENV QT_QPA_PLATFORM offscreen
-
-# add better mirror with some packages we need
-RUN echo "deb http://ftp.us.debian.org/debian sid main" > /etc/apt/sources.list 
 
 RUN apt update && apt install -y \ 
     libgl1 \
