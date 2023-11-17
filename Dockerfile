@@ -13,7 +13,7 @@ RUN apt update && apt install -y \
     libxcb-cursor0 \
     ffmpeg
 
-RUN git clone --depth=1 https://github.com/tybug/snitchvisbot.git /app
+RUN git clone --depth=1 -b patch-1 https://github.com/huskydog9988/snitchvisbot.git /app
 
 WORKDIR /app
 
