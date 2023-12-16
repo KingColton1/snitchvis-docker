@@ -4,8 +4,7 @@ services:
   snitchvis:
     # build: .
     image: ghcr.io/huskydog9988/snitchvis-docker:latest
-    environment:
-      START_DOCKER: false
+    # environment:
     restart: always
     # stdin_open: true
     # tty: true
