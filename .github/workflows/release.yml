@@ -36,7 +36,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            ghcr.io/kingcolton1/snitchvis-docker
+            ghcr.io/huskydog9988/snitchvis-docker
           tags: |
             type=schedule,pattern=nightly
             type=semver,pattern=v{{version}}
