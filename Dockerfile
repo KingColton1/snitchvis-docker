@@ -26,4 +26,6 @@ RUN apt-get clean && \
     /var/lib/apt/lists/* \
     /var/tmp/*
 
+CMD ["python3", "db.py"]
+
 CMD ["python3", "main.py"]
