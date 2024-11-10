@@ -10,8 +10,7 @@ services:
     # tty: true
     # init: true
     volumes:
-      # make sure these files exist before running docker-compose
+      # make sure config.py exist before running docker-compose
       - ./config.py:/app/config.py:ro
-      - ./snitchvis.db:/app/snitchvis.db
       # xserver
       # - /tmp/.X11-unix:/tmp/.X11-unix
