@@ -3,7 +3,7 @@ version: "3.8"
 services:
   snitchvis:
     # build: .
-    image: ghcr.io/huskydog9988/snitchvis-docker:latest
+    image: ghcr.io/kingcolton1/snitchvis-docker:latest
     # environment:
     restart: always
     # stdin_open: true
