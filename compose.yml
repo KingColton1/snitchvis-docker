@@ -12,5 +12,8 @@ services:
     volumes:
       # make sure config.py exist before running docker-compose
       - ./config.py:/app/config.py:ro
+      - snitchvisdb:/app/snitchvis.db # testing
       # xserver
       # - /tmp/.X11-unix:/tmp/.X11-unix
+volumes:
+  snitchvisdb:
