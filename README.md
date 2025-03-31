@@ -4,7 +4,7 @@ Docker for [SnitchVisBot](https://github.com/tybug/snitchvisbot/).
 
 This repo is a fork of Huskydog9988's snitchvis-docker using latest version of SnitchVisBot instead of the old version used in Huskydog9988's snitchvis-docker. Intended to keep the bot up to date and easier to install without having to create a database manually. If you prefer creating database manually or older version of the bot, use Huskydog9988's snitchvis-docker.
 
-If you are looking for Windows support, [take a look in windows-support branch](https://github.com/KingColton1/snitchvis-docker/tree/windows-support?tab=readme-ov-file).
+_To those who are new to docker: Docker is a way to build and run containers. Containers are similar to virtual machine but they're sandbox environment and does not provide same functionalities virutal machine has. They're mainly used to host websites, discord bots, etc._
 
 ## Usage (for Linux-based servers or other type of computers)
 
