@@ -31,7 +31,7 @@ Run:
 
 ## Usage (for Docker Desktop App on Windows, Macs, and Linux)
 
-**This instruction is focused on using Docker Desktop App in Windows. This should be same way for Mac and Linux users; the only difference is your computer's file path, which is, you need to pay attention on your computer's file path. You can follow everything else below.**
+**This instruction is focused on using Docker Desktop App in Windows. This should be same way for Mac and Linux users; the only difference is your computer's file path. You need to pay attention on your computer's file path. You can follow everything else below.**
 
 Prerequisites:
 
