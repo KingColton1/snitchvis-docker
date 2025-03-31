@@ -35,9 +35,8 @@ Run:
 
 Prerequisites:
 
-- [Docker Desktop App](https://www.docker.com/get-started/) (Comes with Docker command line | **Get AMD64 version for Windows, it supports Intel and AMD CPUs. ARM64 is for ARM-based CPUs, you likely don't have that.**)
-OR
-- Docker CLI for Windows
+- [Docker Desktop App](https://www.docker.com/get-started/)
+(Comes with Docker command line | **Get AMD64 version for Windows, it supports Intel and AMD CPUs. ARM64 is for ARM-based CPUs, you likely don't have that. If you are a Mac user, be sure to choose correct CPU architecture because they provide two versions; Apple Silicon and Intel Chip. Check your computer specs to be sure.**)
 
 If this is your first time using Docker, we recommend getting Docker Desktop App because it offer very user friendly UI for you to be able to use right away. There are many tutorials and guides on the internet (YouTube, Docker Documentations, etc) to learn more about using Docker Desktop App.
 
