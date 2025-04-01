@@ -6,12 +6,15 @@ This repo is a fork of Huskydog9988's snitchvis-docker using latest version of S
 
 _To those who are new to docker: Docker is a way to build and run containers. Containers are similar to virtual machine but they're sandbox environment and does not provide same functionalities virutal machine has. They're mainly used to host websites, discord bots, etc._
 
+**BEFORE YOU SET IT UP: BE SURE YOU HAVE A DISCORD BOT CREATED AND ACQUIRED TOKEN!** You need to make a discord bot and get a token, you can do this at https://discord.com/developers/applications. There are many tutorials in the internet, please google "how to get discord bot in discord developer portal". I recommend any Youtube videos as they're helpful with guiding you visually.
+
 ## Usage (for Linux-based servers or other type of computers)
 
 Prerequisites:
 
 - Docker
 - Docker Compose
+- Discord Bot Tokens (from Discord Developer Portal)
 
 If this is your first time using Docker, we recommend run this convinence script as it will install all necessary Docker tools including compose:
 
@@ -37,6 +40,7 @@ Prerequisites:
 
 - [Docker Desktop App](https://www.docker.com/get-started/)
 (Comes with Docker command line | **Get AMD64 version for Windows, it supports Intel and AMD CPUs. ARM64 is for ARM-based CPUs, you likely don't have that. If you are a Mac user, be sure to choose correct CPU architecture because they provide two versions; Apple Silicon and Intel Chip. Check your computer specs to be sure.**)
+- Discord Bot Tokens (from Discord Developer Portal)
 
 If this is your first time using Docker, we recommend getting Docker Desktop App because it offer very user friendly UI for you to be able to use right away. There are many tutorials and guides on the internet (YouTube, Docker Documentations, etc) to learn more about using Docker Desktop App.
 
