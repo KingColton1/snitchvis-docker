@@ -5,7 +5,7 @@ services:
     # build: .
     image: ghcr.io/kingcolton1/snitchvis-docker:latest
     # environment:
-    restart: always
+    restart: on-failure
     # stdin_open: true
     # tty: true
     # init: true
